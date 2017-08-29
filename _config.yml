@@ -8,8 +8,8 @@
 # Site settings
 title: HyG
 brief-intro: Front-end Dev Engineer
-baseurl: "https://lileitao.github.io/blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://lileitao.github.io/blog/" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
@@ -56,5 +56,5 @@ tag_dir: tag/
 excerpt_separator: "\n\n\n\n"
 
 # paginate
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 6
