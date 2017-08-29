@@ -3,16 +3,16 @@ name: 李磊涛的博客
 email: llt1886797@163.com
 author: 李磊涛
 url: https://lileitao.github.io
-resume_site: http://www.hifreud.com/Resume.io/
+resume_site: https://lileitao.github.io
 github: https://lileitao.github.io
 baseurl: "/blog"
-description: Actually, less is more!
+description: 用于记录生活中点点滴滴
 meta_description: 李磊涛;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
 motto: It's our wits that make us men.
 banner: 学而不思则罔，思而不学则殆。
 
 #permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
+permalink: /:categories/:year/:month/:day/:title/
 paginate: 10
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
