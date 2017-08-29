@@ -1,16 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-{% include head.html %}
-<body>
+<html>
 
-  {% include sidebar.html %}
+  {% include head.html %}
 
-  <main role="main">
-    <div class="content">
-      {{content}}
+ <!--  <body data-spy="scroll" data-target="#myAffix"> -->
+  <body>
+
+    {% include header.html %}
+
+    <div id="main" class="container main">
+      {{ content }}
     </div>
-  </main>
 
-{% include analytics.html %}
-</body>
+    
+    <div id="top" data-toggle="tooltip" data-placement="left" title="back to top">
+      <a href="javascript:;">
+        <div class="arrow"></div>
+        <div class="stick"></div>
+      </a>
+    </div>
+
+    {% include footer.html %}
+
+    {% include newpost.html %}
+  
+  </body>
 </html>
