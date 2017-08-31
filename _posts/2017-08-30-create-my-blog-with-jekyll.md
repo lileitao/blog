@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MVC-MVVM之理解"
-date:   2017-08-30
+date:   2017-08-30 22:14:54
 categories: jekyll
 tags: jekyll RubyGems
 ---
