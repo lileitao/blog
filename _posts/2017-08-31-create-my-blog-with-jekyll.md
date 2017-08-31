@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MVC-MVVM之理解"
+title:  "git回滚"
 date:   2017-08-31 
 categories: jekyll
 tags: jekyll RubyGems
